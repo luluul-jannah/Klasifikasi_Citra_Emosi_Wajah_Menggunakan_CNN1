@@ -1,0 +1,18 @@
+{
+  "arsitektur": "3 blok Conv2D(32,64,128) x2 + BatchNorm + MaxPool + Dropout, Flatten, Dense 256 ReLU, Dropout 0.5, Dense softmax",
+  "input_shape": [
+    48,
+    48,
+    1
+  ],
+  "optimizer": "Adam",
+  "learning_rate_awal": 0.001,
+  "loss": "categorical_crossentropy",
+  "batch_size": 64,
+  "epoch_maksimum": 40,
+  "epoch_dijalankan": 38,
+  "epoch_terbaik": 30,
+  "augmentasi": "flip horizontal, rotasi 0.08, zoom 0.1, shift 0.1",
+  "total_parameter": 1470951,
+  "waktu_training_menit": 235.44
+}
